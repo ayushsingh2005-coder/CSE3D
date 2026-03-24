@@ -1,0 +1,51 @@
+# Python
+*.py[cod]
+__pycache__/
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+ENV/
+env/
+
+# Django stuff
+*.log
+local_settings.py
+db.sqlite3
+/media
+/staticfiles
+
+# PyEnv
+.python-version
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Development artifacts
+*.so
+*.egg
+*.egg-info
+dist/
+build/
+.eggs/
+
+# IDE/editor
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node
+node_modules/
+
+# Secret files
+.env
+
+# Gunicorn
+gunicorn.sock
